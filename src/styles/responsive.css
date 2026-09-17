@@ -85,9 +85,6 @@
     gap: 6px;
     font-size: 12px;
   }
-  .nav-number {
-    font-size: 9px;
-  }
   .nav-dot {
     display: none;
   }
@@ -173,9 +170,6 @@
   }
   .nav-dot {
     display: block;
-  }
-  .nav-number {
-    font-size: 11px;
   }
   .header {
     padding: 0 6%;

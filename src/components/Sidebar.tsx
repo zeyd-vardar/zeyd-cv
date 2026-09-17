@@ -61,7 +61,7 @@ export function Sidebar({ activeSection, language, text, onNavigate }: SidebarPr
         className={menuOpen ? "is-open" : ""}
         aria-label={text.common.navigation}
       >
-        {sectionIds.map((section, index) => (
+        {sectionIds.map((section) => (
           <a
             className={`nav-link ${activeSection === section ? "active" : ""}`}
             href={`#${section}`}
@@ -72,7 +72,6 @@ export function Sidebar({ activeSection, language, text, onNavigate }: SidebarPr
               navigate(section);
             }}
           >
-            <span className="nav-number">0{index + 1}</span>
             {text.navigation[section]}
             <span className="nav-dot" />
           </a>
