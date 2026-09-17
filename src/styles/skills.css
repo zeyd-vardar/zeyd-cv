@@ -39,28 +39,3 @@
   background: var(--surface);
   border: 1px solid var(--border);
 }
-
-.learning-note {
-  display: flex;
-  gap: 23px;
-  padding: 24px;
-  background: var(--accent-surface);
-  margin-top: 28px;
-}
-
-.learning-note > span {
-  font-size: 25px;
-  color: var(--accent);
-}
-
-.learning-note h3 {
-  margin: 0 0 9px;
-  font-size: 14px;
-}
-
-.learning-note p {
-  margin: 0;
-  font-size: 12px;
-  line-height: 1.8;
-  color: var(--text-secondary);
-}

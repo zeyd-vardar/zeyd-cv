@@ -81,12 +81,10 @@ const tr = {
     previewAlt: "proje önizlemesi",
   },
   skills: {
-    eyebrow: "ARAÇ KUTUM",
+    eyebrow: "Kullandığım Dil Teknolojileri",
     title: "Farklı araçlar,",
     accent: "aynı özen.",
     description: "Fikirleri hayata geçirirken kullandığım ve üzerinde çalıştığım teknolojiler.",
-    noteTitle: "Öğrenmek, sürecin bir parçası.",
-    note: "Bu liste bir bitiş çizgisi değil. Yeni araçları küçük projelerle keşfediyor, temellerimi her gün güçlendiriyorum.",
   },
   contact: {
     eyebrow: "BİR MERHABA İLE BAŞLAR",
@@ -202,12 +200,10 @@ const en: Translation = {
     previewAlt: "project preview",
   },
   skills: {
-    eyebrow: "MY TOOLKIT",
+    eyebrow: "Languages and Technologies I Use",
     title: "Different tools,",
     accent: "the same care.",
     description: "Technologies I use and explore to bring ideas to life.",
-    noteTitle: "Learning is part of the process.",
-    note: "This list is not a finish line. I explore new tools through small projects and strengthen my foundations every day.",
   },
   contact: {
     eyebrow: "IT STARTS WITH A HELLO",

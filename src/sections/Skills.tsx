@@ -29,13 +29,6 @@ export function Skills({ text, language }: { text: Translation; language: Langua
           </article>
         ))}
       </div>
-      <div className="learning-note">
-        <span aria-hidden="true">↗</span>
-        <div>
-          <h3>{content.noteTitle}</h3>
-          <p>{content.note}</p>
-        </div>
-      </div>
     </div>
   );
 }
