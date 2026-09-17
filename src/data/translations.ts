@@ -47,25 +47,25 @@ const tr = {
     title: "Merakla başlar,",
     accent: "emekle gelişir.",
     intro:
-      "Merhaba, ben Zeyd. Fikirlerin çalışan ürünlere dönüşme sürecini seven, yazılım yolculuğunun başında bir geliştiriciyim.",
+      "Modern, hızlı ve kullanıcı odaklı web ve mobil uygulama çözümleri üreten bir yazılım geliştiriciyim. Fikirleri işlevsel ve estetik dijital ürünlere dönüştürüyorum. Okunabilir ve temiz kod yazmayı, sürekli öğrenmeyi kendime ilke ediniyorum",
     body: "Web ve mobil teknolojiler üzerine çalışıyorum. Her projeyi yeni bir şey öğrenmek, daha iyi sorular sormak ve daha anlaşılır kod yazmak için bir fırsat olarak görüyorum.",
     goalTitle: "Nereye doğru?",
-    goal: "Kullanıcıyı anlayan, detaylara önem veren ve birlikte üretmekten keyif alan bir frontend geliştirici olmak.",
+    goal: "Kullanıcıyı anlayan, detaylara önem veren ve birlikte üretmekten keyif alan bir geliştirici olmak.",
     principles: [
       {
         title: "Önce anla.",
-        text: "Koda geçmeden önce ihtiyacı ve çözmeye çalıştığım problemi anlamaya çalışırım.",
+        text: "Koda geçmeden önce ihtiyacı ve çözmeye çalıştığım problemi anlamaya çalışmak.",
       },
       {
         title: "Sadeleştir.",
-        text: "Okunabilir kod, düşünülmüş detaylar ve gerektiği kadar teknoloji.",
+        text: "Okunabilir ve sade kod, düşünülmüş detaylar ve gerektiği kadar teknoloji.",
       },
       {
         title: "Öğren, uygula, geliştir.",
-        text: "Küçük adımlar, düzenli pratik ve geri bildirimle ilerlerim.",
+        text: "Küçük adımlar, düzenli pratik ve geri bildirimle ilerlemek.",
       },
     ],
-    signature: "Öğrenmeye devam.",
+    signature: "Sürekli öğreniyorum.",
     contact: "Tanışalım",
   },
   projects: {
@@ -166,25 +166,25 @@ const en: Translation = {
     title: "Driven by curiosity,",
     accent: "shaped by practice.",
     intro:
-      "Hi, I'm Zeyd. I'm an early-career developer who loves the process of turning ideas into working products.",
+      "I'm a software developer building modern, fast, user-focused web and mobile applications. I turn ideas into functional, visually appealing digital products. Writing clean, readable code and continuously learning are core principles of my work.",
     body: "I work with web and mobile technologies. Every project is a chance to learn something new, ask better questions, and write clearer code.",
     goalTitle: "Where I'm heading",
-    goal: "To become a frontend developer who understands people, cares about details, and enjoys building with others.",
+    goal: "To become a developer who understands people, cares about details, and enjoys building with others.",
     principles: [
       {
         title: "Understand first.",
-        text: "Before writing code, I take time to understand the need and the problem I want to solve.",
+        text: "Taking time to understand the need and the problem I'm trying to solve before writing code.",
       },
       {
         title: "Keep it simple.",
-        text: "Readable code, thoughtful details, and just enough technology.",
+        text: "Readable, simple code, thoughtful details, and just enough technology.",
       },
       {
         title: "Learn, build, improve.",
-        text: "Small steps, consistent practice, and feedback help me move forward.",
+        text: "Moving forward through small steps, consistent practice, and feedback.",
       },
     ],
-    signature: "Always learning.",
+    signature: "I'm constantly learning.",
     contact: "Let's meet",
   },
   projects: {
