@@ -1,0 +1,9 @@
+@import "../src/styles/variables.css";
+@import "../src/styles/globals.css";
+@import "../src/styles/layout.css";
+@import "../src/styles/home.css";
+@import "../src/styles/about.css";
+@import "../src/styles/projects.css";
+@import "../src/styles/skills.css";
+@import "../src/styles/contact.css";
+@import "../src/styles/responsive.css";

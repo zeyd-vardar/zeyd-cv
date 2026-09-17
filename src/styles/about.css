@@ -1,0 +1,79 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9%;
+}
+
+.biography > p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.9;
+  margin: 0 0 20px;
+}
+
+.biography .lead {
+  font-size: 19px;
+  color: var(--text-primary);
+  line-height: 1.65;
+}
+
+.career-goal {
+  border-left: 2px solid var(--accent);
+  padding-left: 18px;
+  margin: 27px 0 18px;
+}
+
+.career-goal h3 {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+.career-goal p {
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.principle {
+  display: flex;
+  gap: 20px;
+  padding: 21px 0;
+  border-top: 1px solid var(--border);
+}
+
+.principle-number {
+  font-family: monospace;
+  color: var(--accent);
+  font-size: 10px;
+  padding-top: 4px;
+}
+
+.principle h3 {
+  font-size: 17px;
+  margin: 0 0 9px;
+}
+
+.principle p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.signature > span {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 28px;
+}
+
+.signature small {
+  font-size: 10px;
+  color: var(--text-secondary);
+}

@@ -1,0 +1,153 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7%;
+}
+
+.contact-copy h2 {
+  font-size: clamp(37px, 3.6vw, 53px);
+}
+
+.contact-copy h2 .serif {
+  display: block;
+}
+
+.contact-copy .section-heading {
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  margin: 0;
+}
+
+.contact-details > div {
+  margin-bottom: 24px;
+}
+
+.contact-details dt {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.contact-details dd {
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact-details .social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.social-links small {
+  font-size: 9px;
+  color: var(--text-secondary);
+}
+
+.contact-form {
+  border: 1px solid var(--border);
+  padding: 27px;
+  align-self: start;
+  background: var(--surface);
+}
+
+.contact-form h3 {
+  margin: 0 0 24px;
+  font-size: 21px;
+  letter-spacing: -0.4px;
+}
+
+.form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px 15px;
+}
+
+.field-subject,
+.field-message {
+  grid-column: 1 / -1;
+}
+
+.form-field {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 11px;
+  margin-bottom: 9px;
+}
+
+.form-field label > span {
+  color: var(--accent);
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 0;
+  background: var(--background);
+  color: var(--text-primary);
+  padding: 12px;
+  font-size: 12px;
+  min-height: 43px;
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 105px;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.9;
+}
+
+.form-field [aria-invalid="true"] {
+  border-color: var(--accent);
+}
+
+.field-error {
+  font-size: 10px;
+  color: var(--accent);
+  line-height: 1.5;
+  margin-top: 6px;
+}
+
+.contact-form .button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form-note {
+  font-size: 10px;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 0;
+}
+
+.form-status {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.form-status:not(:empty) {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.status-error {
+  color: var(--accent);
+}
+
+.status-sent {
+  color: var(--success);
+}
