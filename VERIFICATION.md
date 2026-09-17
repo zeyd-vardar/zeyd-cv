@@ -25,7 +25,13 @@ Kontroller 17 Eylül 2026 tarihinde yapıldı.
 
 ## Sınırlar
 
-- Proje ve sosyal bağlantıları kullanıcıya ait gerçek adreslerle henüz doldurulmadı. Koşullu linkler yeni sekme ve `noopener noreferrer` kullanımı açısından kod üzerinden kontrol edildi; gerçek dış sitelere gönderim yapılmadı.
+- Proje bağlantıları kullanıcıya ait gerçek adreslerle henüz doldurulmadı. Koşullu linkler yeni sekme ve `noopener noreferrer` kullanımı açısından kod üzerinden kontrol edildi; gerçek dış sitelere gönderim yapılmadı.
 - Form demo modunda. Gerçek backend, e-posta teslimatı, CORS, servis kesintisi ve spam koruması uçtan uca test edilmedi.
 - Mobil kontroller tarayıcı boyutlandırması ile yapıldı; fiziksel iOS/Android cihaz testi ve ekran okuyucu denetimi yapılmadı.
 - Hareket azaltma tercihi CSS ve navigasyon kodunda destekleniyor; işletim sistemi tercihi değiştirilerek ayrıca test edilmedi.
+
+## Gerçek iletişim bilgileri güncellemesi
+
+E-posta, telefon, GitHub ve LinkedIn hedefleri üretim HTML çıktısında kontrol edildi. `mailto:`, uluslararası biçimde `tel:`, sosyal linklerde `target="_blank"` ve `rel="noopener noreferrer"` doğrulandı. Örnek iletişim uyarısı kaldırıldı. TypeScript, lint, derleme ve üretim testi geçti.
+
+Bu güncellemede tarayıcı bağlantısı kullanılamadığı için mobil/tema/dil görsel kontrolleri yeniden yapılamadı. Mevcut responsive stil ve çeviri yapısı korundu. Telefon araması veya e-posta uygulaması fiilen açılmadı; bağlantı hedefleri doğrulandı.

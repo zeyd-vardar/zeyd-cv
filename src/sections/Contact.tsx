@@ -48,7 +48,6 @@ export function Contact({ text }: { text: Translation }) {
             </dd>
           </div>
         </dl>
-        <p className="section-footnote">{content.placeholder}</p>
       </div>
       <ContactForm text={text} />
     </div>

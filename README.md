@@ -44,7 +44,7 @@ worker/              Sites için sunucu giriş dosyası
 - **Renkler:** `src/styles/variables.css` içindeki tema değişkenleri.
 - **Sayfa başlığı ve paylaşım bilgileri:** `app/layout.tsx`.
 
-Telefon, e-posta, sosyal profil alanları ve proje içerikleri örnektir. Gerçek bilgiler gelene kadar sosyal adresler ve proje bağlantıları tıklanabilir olarak sunulmaz. `phoneHref` için örneğin `tel:+905551112233` kullanabilirsiniz.
+İletişim bilgileri gerçek adreslerle tanımlıdır. Telefon ekranda yerel biçimde gösterilir; `tel:` bağlantısı Türkiye ülke kodunu içerir. Sosyal profiller güvenli biçimde yeni sekmede açılır. Proje içerikleri hâlâ örnektir; gerçek proje bağlantıları eklenene kadar sahte link gösterilmez.
 
 ## Navigasyonun çalışma biçimi
 
@@ -70,6 +70,8 @@ Varsayılan olarak **demo modu** açıktır. Form doğrulanır, ancak mesaj gön
 1. `.env.example` dosyasını `.env` olarak kopyalayın.
 2. `VITE_CONTACT_ENDPOINT` değerine JSON kabul eden HTTPS adresinizi yazın.
 3. Geliştirme sunucusunu yeniden başlatın; üretim için yeniden derleyin.
+
+Gelecekteki e-posta servisinde alıcı olarak `src/data/personalInfo.ts` içindeki e-posta adresini yapılandırın. Alıcı adresini backend veya servis panelinde sabitleyin; istemciden gelen bir alıcı değerine güvenmeyin. Form bileşeninin değiştirilmesi gerekmez.
 
 Gönderilen JSON:
 
