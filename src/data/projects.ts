@@ -1,20 +1,7 @@
 import type { Project } from "../types/portfolio";
 
 export const projects: Project[] = [
-  {
-    id: "soccer-chat",
-    title: "SoccerChat",
-    description: {
-      tr: "Maç odaları ve gerçek zamanlı sohbeti bir araya getiren futbol topluluğu uygulaması. Web demosu, örnek maç verileriyle kayıt olmadan keşfedilebilir.",
-      en: "A football community app combining match rooms and real-time chat. The web demo can be explored without registration using sample match data.",
-    },
-    category: { tr: "WEB & MOBİL UYGULAMA", en: "WEB & MOBILE APP" },
-    technologies: ["Flutter", "Dart", "Supabase", "Riverpod"],
-    liveUrl: "https://zeyd-vardar.github.io/soccer-chat/",
-    githubUrl: "https://github.com/zeyd-vardar/soccer-chat",
-    status: "live",
-    visual: "mobile",
-  },
+ 
   {
     id: "soccer-chat",
     title: "SoccerChat",
@@ -70,5 +57,19 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zeyd-vardar/acar-muhendislik",
     status: "live",
     visual: "editorial",
+  },
+  {
+    id: "E-Ticaret-Web-Sitesi",
+    title: "E-Ticaret Web Sitesi",
+    description: {
+      tr: "Küçük işletmeler için ürünlerini sergileyip satabilecekleri, ödeme ve sipariş takibi sunan e-ticaret web sitesi. Ürünler, kategoriler ve iletişim bilgilerini bir araya getirir.",
+      en: "E-commerce website for small businesses to showcase and sell their products, with payment and order tracking features. Brings together products, categories and contact information.",
+    },
+    category: { tr: "E-TİCARET WEB SİTESİ", en: "E-COMMERCE WEBSITE" },
+    technologies: ["güncellenecek"],
+    liveUrl: "güncellenecek",
+    githubUrl: "güncellenecek",
+    status: "live",
+    visual: "workspace",  
   },
 ];
