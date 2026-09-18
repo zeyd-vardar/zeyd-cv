@@ -25,7 +25,7 @@ Kontroller 17 Eylül 2026 tarihinde yapıldı.
 
 ## Sınırlar
 
-- Proje bağlantıları kullanıcıya ait gerçek adreslerle henüz doldurulmadı. Koşullu linkler yeni sekme ve `noopener noreferrer` kullanımı açısından kod üzerinden kontrol edildi; gerçek dış sitelere gönderim yapılmadı.
+- GitHub hesabındaki dört proje eklendi. Canlı URL’ler HTTP 200 yanıtı ile doğrulandı; Flutter demolarının bütün etkileşimleri ve dış sitelerin tüm sayfaları uçtan uca test edilmedi.
 - Form demo modunda. Gerçek backend, e-posta teslimatı, CORS, servis kesintisi ve spam koruması uçtan uca test edilmedi.
 - Mobil kontroller tarayıcı boyutlandırması ile yapıldı; fiziksel iOS/Android cihaz testi ve ekran okuyucu denetimi yapılmadı.
 - Hareket azaltma tercihi CSS ve navigasyon kodunda destekleniyor; işletim sistemi tercihi değiştirilerek ayrıca test edilmedi.

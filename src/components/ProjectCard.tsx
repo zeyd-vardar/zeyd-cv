@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { ProjectPreview } from "./ProjectPreview";
 import type { Translation } from "../data/translations";
 import type { Language, Project } from "../types/portfolio";
 
@@ -10,48 +10,40 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, language, text, index }: ProjectCardProps) {
-  const [failedImage, setFailedImage] = useState(false);
+  const destination = project.liveUrl ?? project.githubUrl;
+  const preview = (
+    <ProjectPreview
+      project={project}
+      index={index}
+      alt={`${project.title} ${text.projects.previewAlt}`}
+    />
+  );
   return (
     <article className="project-card">
-      <div className={`project-preview preview-${project.visual}`}>
-        {project.image && !failedImage ? (
-          <img
-            src={project.image}
-            alt={`${project.title} ${text.projects.previewAlt}`}
-            loading="lazy"
-            width={560}
-            height={400}
-            onError={() => setFailedImage(true)}
-          />
-        ) : (
-          <div className="project-mockup" aria-hidden="true">
-            <div className="mockup-toolbar">
-              <i />
-              <i />
-              <i />
-            </div>
-            <div className="mockup-content">
-              <span className="mockup-brand">
-                {project.title}
-                <span>®</span>
-              </span>
-              <div className="mockup-composition">
-                <div />
-                <div />
-                <div />
-              </div>
-              <div className="mockup-lines">
-                <span />
-                <span />
-              </div>
-            </div>
-          </div>
-        )}
-        <span className="project-index">0{index + 1}</span>
-      </div>
+      {destination ? (
+        <a
+          className="project-preview-link"
+          href={destination}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`${project.title} — ${project.liveUrl ? text.projects.live : text.projects.source}`}
+        >
+          {preview}
+        </a>
+      ) : (
+        preview
+      )}
       <div className="project-category">{project.category[language]}</div>
       <div className="project-title">
-        <h3>{project.title}</h3>
+        <h3>
+          {destination ? (
+            <a href={destination} target="_blank" rel="noopener noreferrer">
+              {project.title}
+            </a>
+          ) : (
+            project.title
+          )}
+        </h3>
         <span className="project-status">{text.projects.statuses[project.status]}</span>
       </div>
       <p>{project.description[language]}</p>

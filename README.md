@@ -39,12 +39,12 @@ worker/              Sites için sunucu giriş dosyası
 - **İsim, e-posta, telefon, sosyal bağlantılar:** `src/data/personalInfo.ts`.
 - **Biyografi, butonlar ve bütün ana metinler:** `src/data/translations.ts`. `tr` ve `en` aynı yapıyı paylaşır; eksik çeviriler TypeScript tarafından yakalanır.
 - **Projeler:** `src/data/projects.ts`. Yeni bir nesne eklemek yeterlidir. `liveUrl` ve `githubUrl` verilirse bağlantılar yeni sekmede açılır. Eksik bağlantılar için sahte link gösterilmez.
-- **Proje görselleri:** dosyayı `public/` içine ekleyin ve projeye `image: "/proje.webp"` yazın. Görsel yoksa veya yüklenemezse CSS önizlemesi gösterilir.
+- **Proje görselleri:** dosyayı `public/` içine ekleyin ve projeye `image: "/proje.webp"` yazın. Görsel yoksa veya yüklenemezse proje adını taşıyan sade bir kapak gösterilir.
 - **Teknolojiler:** `src/data/skills.ts`.
 - **Renkler:** `src/styles/variables.css` içindeki tema değişkenleri.
 - **Sayfa başlığı ve paylaşım bilgileri:** `app/layout.tsx`.
 
-İletişim bilgileri gerçek adreslerle tanımlıdır. Telefon ekranda yerel biçimde gösterilir; `tel:` bağlantısı Türkiye ülke kodunu içerir. Sosyal profiller güvenli biçimde yeni sekmede açılır. Proje içerikleri hâlâ örnektir; gerçek proje bağlantıları eklenene kadar sahte link gösterilmez.
+İletişim bilgileri gerçek adreslerle tanımlıdır. Telefon ekranda yerel biçimde gösterilir; `tel:` bağlantısı Türkiye ülke kodunu içerir. Sosyal profiller güvenli biçimde yeni sekmede açılır. Proje listesi GitHub hesabındaki SoccerChat, İçimlik, Renk Kaçışı ve Açar Mühendislik çalışmalarını içerir. Kart kapağı, başlığı ve “Projeyi gör” bağlantısı canlı siteye; “Kaynak kod” bağlantısı GitHub deposuna gider. Liste `src/data/projects.ts` üzerinden elle güncellenir.
 
 ## Navigasyonun çalışma biçimi
 
@@ -103,6 +103,6 @@ npm run test:production
 
 ## Görseller ve bağımlılıklar
 
-Ana sayfadaki geometrik şekiller ve proje önizlemeleri CSS ile oluşturulur. Sistem fontları kullanılır; harici font veya animasyon kütüphanesi yüklenmez. Sosyal paylaşım görseli `public/og.png`, favicon ise `public/favicon.png` dosyasındadır.
+Ana sayfadaki geometrik şekiller ve proje kapakları CSS ile oluşturulur. Sistem fontları kullanılır; harici font veya animasyon kütüphanesi yüklenmez. Sosyal paylaşım görseli `public/og.png`, favicon ise `public/favicon.png` dosyasındadır.
 
 `vinext` beta sürümüdür; Sites dağıtım altyapısının parçasıdır. Üretimde bağımlılık güncellemelerini test ederek uygulayın. Framework ve dağıtım araçları dışındaki çalışma zamanı bağımlılıkları React ve React DOM ile sınırlıdır.

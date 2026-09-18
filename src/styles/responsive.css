@@ -260,21 +260,6 @@
   .project-preview {
     height: 265px;
   }
-  .project-mockup {
-    max-width: 300px;
-  }
-  .mockup-brand {
-    font-size: 30px;
-  }
-  .mockup-composition {
-    height: 75px;
-  }
-  .preview-mobile .project-mockup {
-    max-width: 140px;
-  }
-  .preview-mobile .mockup-composition {
-    height: 110px;
-  }
   .project-card > p {
     font-size: 14px;
     min-height: auto;
