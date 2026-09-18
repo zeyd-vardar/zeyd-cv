@@ -13,7 +13,7 @@ npm run dev
 
 Terminalde gösterilen yerel adresi açın. Üretim derlemesi için `npm run build` çalıştırın.
 
-Vite tabanlı **vinext** yönlendirme ve sunucuda HTML oluşturma katmanıdır. Sites başlangıç yapısından gelir. Uygulamanın React kodu `src/` altında bulunur; `app/` yalnızca giriş sayfasını, ortak düzeni ve SEO bilgisini içerir. Bu projede veritabanı veya kimlik doğrulama kullanılmaz.
+Vite tabanlı **vinext** yönlendirme ve sunucuda HTML oluşturma katmanıdır. Uygulamanın React kodu `src/` altında bulunur; `app/` yalnızca giriş sayfasını, ortak düzeni ve SEO bilgisini içerir. Bu projede veritabanı veya kimlik doğrulama kullanılmaz.
 
 ## Dosya yapısı
 
@@ -103,6 +103,6 @@ npm run test:production
 
 ## Görseller ve bağımlılıklar
 
-Ana sayfa geometrisi ve örnek proje önizlemeleri yerel CSS ile çizilir; harici görsel isteği veya animasyon kütüphanesi yoktur. Sistem fontları kullanılır. `public/og.png`, yerleşik Imagegen ile oluşturulan paylaşım kartıdır. Kullanılan görsel brief: kırık beyaz zemin, antrasit tipografi, kiremit vurgu, adaçayı yeşili birbirine geçen halkalar; “Zeyd Vardar”, “Ideas into experiences.” ve “DEVELOPER & CREATIVE THINKER” metinleri.
+Ana sayfadaki geometrik şekiller ve proje önizlemeleri CSS ile oluşturulur. Sistem fontları kullanılır; harici font veya animasyon kütüphanesi yüklenmez. Sosyal paylaşım görseli `public/og.png`, favicon ise `public/favicon.png` dosyasındadır.
 
 `vinext` beta sürümüdür; Sites dağıtım altyapısının parçasıdır. Üretimde bağımlılık güncellemelerini test ederek uygulayın. Framework ve dağıtım araçları dışındaki çalışma zamanı bağımlılıkları React ve React DOM ile sınırlıdır.

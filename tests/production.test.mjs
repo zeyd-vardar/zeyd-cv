@@ -13,5 +13,7 @@ test("production route renders portfolio content and absolute social metadata", 
   assert.match(html, /Zeyd Vardar/);
   assert.match(html, /https:\/\/portfolio\.example\/og\.png/);
   assert.match(html, /summary_large_image/);
-  assert.doesNotMatch(html, /codex-preview|SkeletonPreview/);
+  for (const section of ["home", "about", "projects", "skills", "contact"]) {
+    assert.ok(html.includes(`id="${section}"`), `Missing section: ${section}`);
+  }
 });
