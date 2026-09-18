@@ -42,6 +42,7 @@ export default defineConfig(async () => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
+    base: "./",
     server: requiresPolling ? { watch: { useFsEvents: false, usePolling: true } } : undefined,
     plugins: [
       vinext(),
