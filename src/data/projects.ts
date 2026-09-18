@@ -16,6 +16,20 @@ export const projects: Project[] = [
     visual: "mobile",
   },
   {
+    id: "soccer-chat",
+    title: "SoccerChat",
+    description: {
+      tr: "Maç odaları ve gerçek zamanlı sohbeti bir araya getiren futbol topluluğu uygulaması. Web demosu, örnek maç verileriyle kayıt olmadan keşfedilebilir.",
+      en: "A football community app combining match rooms and real-time chat. The web demo can be explored without registration using sample match data.",
+    },
+    category: { tr: "WEB & MOBİL UYGULAMA", en: "WEB & MOBILE APP" },
+    technologies: ["Flutter", "Dart", "Supabase", "Riverpod"],
+    liveUrl: "https://zeyd-vardar.github.io/soccer-chat/",
+    githubUrl: "https://github.com/zeyd-vardar/soccer-chat",
+    status: "live",
+    visual: "mobile",
+  },
+  {
     id: "kahve-cesitleri",
     title: "İçimlik",
     description: {
