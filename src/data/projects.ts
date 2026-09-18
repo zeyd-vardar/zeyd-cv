@@ -52,7 +52,7 @@ export const projects: Project[] = [
     },
     category: { tr: "KURUMSAL WEB SİTESİ", en: "CORPORATE WEBSITE" },
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://www.acarmuhendis.com/",
+    liveUrl: "https://zeyd-vardar.github.io/acar-muhendislik/",
     githubUrl: "https://github.com/zeyd-vardar/acar-muhendislik",
     status: "live",
     visual: "editorial",
