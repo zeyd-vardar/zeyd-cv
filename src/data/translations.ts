@@ -10,7 +10,7 @@ const tr = {
   },
   common: {
     portfolio: "KİŞİSEL PORTFÖY",
-    role: "YAZILIM GELİŞTİRİCİ & YARATICI DÜŞÜNÜR",
+    role: "YAZILIM GELİŞTİRİCİ",
     available: "Yeni fikirlere açık",
     menu: "Menüyü aç",
     closeMenu: "Menüyü kapat",
@@ -129,7 +129,7 @@ const en: Translation = {
   },
   common: {
     portfolio: "PERSONAL PORTFOLIO",
-    role: "DEVELOPER & CREATIVE THINKER",
+    role: "DEVELOPER",
     available: "Open to new ideas",
     menu: "Open menu",
     closeMenu: "Close menu",
