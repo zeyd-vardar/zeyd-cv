@@ -10,15 +10,6 @@
   background: var(--background);
 }
 
-.wordmark {
-  font-size: 57px;
-  font-weight: 650;
-  letter-spacing: -6px;
-  line-height: 1;
-  width: fit-content;
-}
-
-.wordmark span,
 .accent {
   color: var(--accent);
 }
@@ -26,7 +17,6 @@
 .sidebar-caption {
   font-size: 9px;
   letter-spacing: 1.9px;
-  margin-top: 21px;
   color: var(--text-secondary);
 }
 

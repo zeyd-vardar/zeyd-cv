@@ -33,18 +33,6 @@ export function Sidebar({ activeSection, language, text, onNavigate }: SidebarPr
 
   return (
     <aside className="sidebar">
-      <a
-        className="wordmark"
-        href="#home"
-        aria-label={personalInfo.name}
-        onClick={(event) => {
-          event.preventDefault();
-          navigate("home");
-        }}
-      >
-        {personalInfo.initials}
-        <span>.</span>
-      </a>
       <div className="sidebar-caption">{text.common.portfolio}</div>
       <button
         ref={menuButtonRef}

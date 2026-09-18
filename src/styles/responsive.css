@@ -68,10 +68,6 @@
     border-right: 0;
     border-bottom: 1px solid var(--border);
   }
-  .wordmark {
-    font-size: 43px;
-    letter-spacing: -4px;
-  }
   .sidebar-caption,
   .sidebar-bottom {
     display: none;
@@ -137,6 +133,7 @@
     padding: 0 6%;
   }
   .menu-toggle {
+    margin-left: auto;
     display: flex;
     align-items: center;
     gap: 14px;
