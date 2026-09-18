@@ -69,7 +69,7 @@ export const projects: Project[] = [
     technologies: ["güncellenecek"],
     liveUrl: "güncellenecek",
     githubUrl: "güncellenecek",
-    status: "live",
+    status: "in-progress",
     visual: "workspace",  
   },
 ];
