@@ -67,7 +67,7 @@ export const projects: Project[] = [
     },
     category: { tr: "E-TİCARET WEB SİTESİ", en: "E-COMMERCE WEBSITE" },
     technologies: ["JavaScript", "TypeScript", "HTML", "CSS"],
-    liveUrl: "https://zeyd-vardar.github.io/E-COMMERCE-WEBSITE/",
+    liveUrl: "https://zeyd-vardar.github.io/E-COMMERCE-WEBSITE/?v=20260919",
     githubUrl: "https://github.com/zeyd-vardar/E-COMMERCE-WEBSITE",
     status: "live",
     visual: "workspace",  

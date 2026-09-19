@@ -21,6 +21,7 @@
     overflow: hidden;
   }
   .workspace {
+    height: 100vh;
     height: 100svh;
     display: grid;
     grid-template-rows: 91px minmax(0, 1fr) 62px;
