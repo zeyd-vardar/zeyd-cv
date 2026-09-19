@@ -39,8 +39,6 @@ const tr = {
     approachLabel: "YAKLAŞIMIM",
     approach: "Az, öz ve düşünülmüş.",
     purpose: "BİR AMAÇ İÇİN ÜRETİYORUM ↗",
-    artLabel: "FİKİRDEN GERÇEĞE",
-    artCaption: "ŞEKİL 01 — SÜREKLİ GELİŞİM",
   },
   about: {
     eyebrow: "KODUN ARKASINDAKİ KİŞİ",
@@ -158,8 +156,6 @@ const en: Translation = {
     approachLabel: "MY APPROACH",
     approach: "Less, but considered.",
     purpose: "CREATING WITH PURPOSE ↗",
-    artLabel: "IDEAS INTO REALITY",
-    artCaption: "FIG. 01 — CONTINUOUS GROWTH",
   },
   about: {
     eyebrow: "THE PERSON BEHIND THE CODE",
