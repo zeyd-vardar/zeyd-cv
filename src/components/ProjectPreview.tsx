@@ -31,12 +31,15 @@ function ProjectArtwork({ project }: Pick<ProjectPreviewProps, "project">) {
 
 export function ProjectPreview({ project, index, alt }: ProjectPreviewProps) {
   const [failedImage, setFailedImage] = useState(false);
+  const imageSrc = project.image
+    ? `${import.meta.env.BASE_URL}${project.image.replace(/^\/+/, "")}`
+    : undefined;
 
   return (
     <div className={`project-preview preview-${project.visual}`}>
-      {project.image && !failedImage ? (
+      {imageSrc && !failedImage ? (
         <img
-          src={project.image}
+          src={imageSrc}
           alt={alt}
           loading="lazy"
           width={560}

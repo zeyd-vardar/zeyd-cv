@@ -41,13 +41,11 @@ export function Home({ text, onNavigate }: HomeProps) {
       </div>
       <div className="hero-art" aria-hidden="true">
         <div className="art-grid" />
-        <span className="art-label">{content.artLabel}</span>
         <div className="sculpture">
           <div className="sculpture-ring ring-one" />
           <div className="sculpture-ring ring-two" />
         </div>
-        <span className="art-index">{content.artCaption}</span>
-        <span className="art-plus">+</span>
+        <span className="art-plus">+</span>   
       </div>
       <div className="home-meta">
         <div>
