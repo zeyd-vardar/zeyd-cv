@@ -15,7 +15,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zeyd-vardar/soccer-chat",
     status: "live",
     visual: "mobile",
-    image: "/projects/soccer-chat-cover.png",
   },
   {
     id: "kahve-cesitleri",
@@ -30,7 +29,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zeyd-vardar/kahve-cesitleri",
     status: "live",
     visual: "workspace",
-    image: "/projects/icimlik-cover.png",
   },
   {
     id: "renk-kacisi",
@@ -45,7 +43,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zeyd-vardar/renk-kacisi",
     status: "live",
     visual: "mobile",
-    image: "/projects/renk-kacisi-cover.png",
   },
   {
     id: "acar-muhendislik",
@@ -60,7 +57,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zeyd-vardar/acar-muhendislik",
     status: "live",
     visual: "editorial",
-    image: "/projects/acar-muhendislik-cover.png",
   },
   {
     id: "E-Ticaret-Web-Sitesi",
@@ -75,6 +71,5 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zeyd-vardar/E-COMMERCE-WEBSITE",
     status: "live",
     visual: "workspace",
-    image: "/projects/ecommerce-cover.png",
   },
 ];
