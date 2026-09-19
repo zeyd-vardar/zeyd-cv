@@ -62,8 +62,8 @@ export const projects: Project[] = [
     id: "E-Ticaret-Web-Sitesi",
     title: "E-Ticaret Web Sitesi",
     description: {
-      tr: "İşletmeler için ürünlerini sergileyip satabilecekleri, ödeme ve sipariş takibi sunan e-ticaret web sitesi. Ürünler, kategoriler ve iletişim bilgilerini bir araya getirir.",
-      en: "E-commerce website for businesses to showcase and sell their products, with payment and order tracking features. Brings together products, categories and contact information.",
+      tr: "İşletmeler için ürünlerini sergileyip satabilecekleri, mevcut ödeme ve sipariş takibi sunan e-ticaret web sitesi. Ürünler, kategoriler ve iletişim bilgilerini bir araya getirir. mobil uygulama ile entegre çalışır.",
+      en: "E-commerce website for businesses to showcase and sell their products, with payment and order tracking features. Brings together products, categories and contact information. Integrates with a mobile application.",
     },
     category: { tr: "E-TİCARET WEB SİTESİ", en: "E-COMMERCE WEBSITE" },
     technologies: ["JavaScript", "TypeScript", "HTML", "CSS"],
