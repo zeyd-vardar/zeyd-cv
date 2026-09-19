@@ -28,6 +28,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 240ms ease;
+}
+
+.project-preview-link:hover img {
+  transform: scale(1.035);
 }
 
 .project-index {
